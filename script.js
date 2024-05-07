@@ -8,6 +8,6 @@ inpu.addEventListener('input',()=>{
 	const letter=inpu.value
 	const count=letter.length;
 
-	coun.textContent=`${count}`
+	coun.innerText=`${count}`
 	
 })
